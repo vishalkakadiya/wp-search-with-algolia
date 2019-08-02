@@ -37,15 +37,15 @@
 			</div>
 			<# } #>
 
-			<div>
-				<a
-					href="/?add-to-cart={{ data.post_id }}" data-quantity="1"
-				   class="button product_type_simple add_to_cart_button ajax_add_to_cart"
-					data-product_id="{{ data.post_id }}" data-product_sku="woo-album"
-					aria-label="Add “Album” to your cart" rel="nofollow">
-						Add to cart
-				</a>
-			</div>
+<!--			<div>-->
+<!--				<a-->
+<!--					href="/?add-to-cart={{ data.post_id }}" data-quantity="1"-->
+<!--				   class="button product_type_simple add_to_cart_button ajax_add_to_cart"-->
+<!--					data-product_id="{{ data.post_id }}" data-product_sku="woo-album"-->
+<!--					aria-label="Add “Album” to your cart" rel="nofollow">-->
+<!--						Add to cart-->
+<!--				</a>-->
+<!--			</div>-->
 
 			<div class="ais-hits--content">
 				<h2 itemprop="name headline"><a href="{{ data.permalink }}" title="{{ data.post_title }}" itemprop="url">{{{ data._highlightResult.post_title.value }}}</a></h2>
